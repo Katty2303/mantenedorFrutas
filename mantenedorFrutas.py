@@ -28,6 +28,8 @@ while opMenu == True:
         opMenu = False
         
     elif opMenu == 2:
-        if listaFruta == " ":
-            print("no")
+        if len(listaFruta) == 0:
+            print("No hay datos por mostrar")
+        else:
+            print(listaFruta)
         opMenu = False
